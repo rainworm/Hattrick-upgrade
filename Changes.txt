@@ -1,0 +1,1 @@
+1. First thing that this script does is that it hides all ads and commercials from Hattrick.org (no more annoying head, side and bottom banners).
