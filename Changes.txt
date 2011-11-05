@@ -1,5 +1,6 @@
-4.11.2011
-  - ads and commercials are not displayd (no more annoying head, side and bottom banners).
-  
 5.11.2011
 	- ht_statistics.user.js renamed to hattrick_no_ads.user.js
+	- added hattrick_players_avatars.user.js which replaces silhuets of players with avatars.
+
+4.11.2011
+  - ads and commercials are not displayd (no more annoying head, side and bottom banners).
