@@ -1,1 +1,5 @@
-1. First thing that this script does is that it hides all ads and commercials from Hattrick.org (no more annoying head, side and bottom banners).
+4.11.2011
+  - ads and commercials are not displayd (no more annoying head, side and bottom banners).
+  
+5.11.2011
+	- ht_statistics.user.js renamed to hattrick_no_ads.user.js
