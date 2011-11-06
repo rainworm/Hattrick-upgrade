@@ -5,18 +5,35 @@
 // ==/UserScript==
 
 allDivisions = document.getElementsByTagName("div");
-var Player = new Array;
+Player = new Array;
 
 //Function fills array with player data
 function f_gatherPlayerData() {
   counter = 0;
+  
+  //the method of getting players name on individual player page
+  if ((document.location.href.indexOf('Players/Player.aspx?PlayerID=') != -1) || (document.location.href.indexOf('Players/YouthPlayer.aspx?YouthPlayerID=') != -1)) {
+		allH1 = document.getElementsByTagName('h1');
+		for (i=0; i<allH1.length; i++) {
+			PlayerName = allH1[i].innerHTML.replace(/^\s+|\s+$/g, '');
+			PlayerName = PlayerName.substr(PlayerName.indexOf('</span>')+7, PlayerName.length);
+			PlayerName = PlayerName.replace(/^\s+|\s+$/g, '');
+			PlayerName = PlayerName.substr(0, PlayerName.indexOf(' <span>'));
+		}
+  }
+  
   //We walk trough all divisions
   for (i=0; i < allDivisions.length; i++) {
     //and get player data for each player (we'll needed it to uniqly define Players look)
     if (allDivisions[i].className.match("playerInfo")) {
       Player[counter] = new Array;
-	    PlayerName = allDivisions[i].innerHTML.substring(allDivisions[i].innerHTML.indexOf('title=')+7, allDivisions[i].innerHTML.indexOf('title=')+40);
-	    PlayerName = PlayerName.substring(0, PlayerName.indexOf('">'));
+      
+      if ((document.location.href.indexOf('Players/?TeamID=') != -1) || (document.location.href.indexOf('Players/YouthPlayers.aspx?YouthTeamID=') != -1)) {
+	      PlayerName = allDivisions[i].innerHTML.substring(allDivisions[i].innerHTML.indexOf('title=')+7, allDivisions[i].innerHTML.indexOf('title=')+40);
+	      PlayerName = PlayerName.substring(0, PlayerName.indexOf('">'));
+	    }
+	    
+	    PlayerName = PlayerName.replace('  ', ' ');
 
       //Player's data is stored in array for further need
       Player[counter][0] = PlayerName;
