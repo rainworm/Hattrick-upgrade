@@ -1,4 +1,5 @@
 6.11.2011
+  - fixed bug when avatars did't display on individual players page if accessed from dream team page.
   - fixed bug when on individual players page there was wrong avatar picture.
   - added avatars for youth team.
 
