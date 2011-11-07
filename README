@@ -1,4 +1,13 @@
-Here the Greasemonkey script for Hattrick game (www.hattrick.org) will be developed.
-I wan't to add some functions and improved statistics to game and make the gap between supporters and nonsupportest smaller.
+Greasemonkey scripts for Hattrick are developed here.
+I wan't to add some game functionality and improve game experience.
 
+So far script can
+  - Display team players avatars even if you don't support the game developers, (N)
+  - hide annoying ads on page. (S)
 
+Legend:
+ (N) - useful for nonsupporters (this functionality is already a part of game if you are supporter),
+ (S) - useful for supporters and nonsupporters
+
+Greasemonkey; Firefox add-on that allows you to customize the way a web page displays or behaves, by using small bits of JavaScript. (https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
+Hattrick; The original online football manager game (www.hattrick.org)
