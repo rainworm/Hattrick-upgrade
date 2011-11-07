@@ -1,4 +1,5 @@
 7.11.2011
+  - added index.html (main site for this project)
   - code optimization in hattrick_players_avatars.user.js.
   - bug fix when displaying avatars on sorted players page.
 
