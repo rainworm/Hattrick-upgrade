@@ -1,11 +1,15 @@
+7.11.2011
+  - code optimization in hattrick_players_avatars.user.js.
+  - bug fix when displaying avatars on sorted players page.
+
 6.11.2011
   - fixed bug when avatars did't display on individual players page if accessed from dream team page.
   - fixed bug when on individual players page there was wrong avatar picture.
   - added avatars for youth team.
 
 5.11.2011
-	- ht_statistics.user.js renamed to hattrick_no_ads.user.js
-	- added hattrick_players_avatars.user.js which replaces silhuets of players with avatars.
+  - ht_statistics.user.js renamed to hattrick_no_ads.user.js.
+  - added hattrick_players_avatars.user.js which replaces silhuets of players with avatars.
 
 4.11.2011
   - ads and commercials are not displayd (no more annoying head, side and bottom banners).
