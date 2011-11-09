@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           HattrickNoAds
 // @namespace      HattrickNoAds
-// @description    test
+// @description    Script removes ads from site.
 // @include        http://www*.hattrick.org/*
 // ==/UserScript==
 
