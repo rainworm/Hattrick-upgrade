@@ -1,4 +1,5 @@
 9.11.2011
+  - Team of the week avatars were merged to hattrick_players_avatars.user.js
   - Added avatars to team of the week page
   - Changed name, namespace and description in hattrick_no_ads.user.js
 
