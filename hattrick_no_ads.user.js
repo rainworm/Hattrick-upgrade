@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name           HT_statistics
-// @namespace      HT_statistics
+// @name           HattrickNoAds
+// @namespace      HattrickNoAds
 // @description    test
 // @include        http://www*.hattrick.org/*
 // ==/UserScript==
