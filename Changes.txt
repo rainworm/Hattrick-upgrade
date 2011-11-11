@@ -1,3 +1,6 @@
+12.11.2011
+  - Added option to set your players nicknames. 
+
 9.11.2011
   - Team of the week avatars were merged to hattrick_players_avatars.user.js
   - Added avatars to team of the week page
